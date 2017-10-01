@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "DoCuMeNtAtIoN!",
+  "description": "This extension will open your documentation you need!!",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_popup": "index.html",
+"default_icon":"docs.png"
+  },
+"icons":{
+"64":"docs.png"
+},
+  "permissions": [
+   "activeTab"
+   ]
+}
